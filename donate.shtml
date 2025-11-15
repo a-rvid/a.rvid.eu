@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Donations">
+    <meta name="keywords" content="Donations Donate Fund Support Me Coffee Purchase Sponsor Funding">
+    <meta name="author" content="Arvid">
+    <meta name="robots" content="index, follow">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta property="og:title" content="Donations | rvid.eu">
+    <meta property="og:description" content="Support me!">
+    <!--<meta property="og:image" content="https://www.example.com/og-image.jpg">-->
+    <title>rvid | Donations</title>
+    <link rel="canonical" href="https://a.rvid.eu/donate">
+    <link rel="stylesheet" href="/static/style.css">
+    <link rel="icon" type="image/svg+xml" href="/images/favicon.svg">
+  </head>
+  <body>
+<!--#include virtual="/templates/navbar.html" -->
+    <main>
+      <header>
+        <h1>Buy me a coffee!</h1>
+        <p>You found the donation page. Here you can support me!</p>
+        <figure>
+          <a href='https://airvpn.org/?referred_by=763677' title='Air VPN - The air to breathe the real Internet'><img src='images/airvpn.avif' alt='Air VPN - The air to breathe the real Internet'></a>
+          <figcaption>Check it out! This is a Affiliate link.</figcaption>
+        </figure>
+        <p>AirVPN is a private VPN with a strict no-log policy.</p><br> 
+        <p>Better privacy would always be to use a decentralized network, like TOR, and of course use good services and applications. Affiliate links does not make the subscription cost more</p>
+      </header>
+    </main>
+  </body>
+</html>
