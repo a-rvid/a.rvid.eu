@@ -20,8 +20,19 @@ function minifyCss(css) {
 
 function minifyHtml(html) {
   html = html.replace(/<!--(?!\[if|\s*\[endif)[\s\S]*?-->/g, '');
+
+  const preBlocks = [];
+  html = html.replace(/<pre[\s\S]*?<\/pre>/gi, (m) => {
+    const idx = preBlocks.length;
+    preBlocks.push(m);
+    return `%%PRE_BLOCK_${idx}%%`;
+  });
+
   html = html.replace(/>\s+</g, '><');
   html = html.replace(/\s{2,}/g, ' ');
+
+  html = html.replace(/%%PRE_BLOCK_(\d+)%%/g, (m, n) => preBlocks[Number(n)]);
+
   return html.trim();
 }
 
