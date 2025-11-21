@@ -23,12 +23,12 @@
     <main>
       <header>
         <h1>Wallpapers!</h1>
-        <p>A collection of general wallpapers created by me. Feel free to use them. Expand:</p>
+        <p>A collection of general wallpapers created by me. Download instead of right clicking - save image to get lossless images! Expand:</p>
         <details>
           <summary>Grassy Cat</summary>
           <div class="wallpaper">
             <a href="/images/wallpaper-vault/GrassyCat/GrassyCat.png" target="_blank">
-              <img src="/images/wallpaper-vault/GrassyCat/GrassyCat.avif" loading="lazy" alt="A really grassy cat">
+              <img src="/images/wallpaper-vault/GrassyCat/GrassyCatLossy.avif" loading="lazy" alt="A really grassy cat">
             </a><br>
           </div>
           <a href="/images/wallpaper-vault/GrassyCat/GrassyCat.avif" download>Download AVIF</a><br>
