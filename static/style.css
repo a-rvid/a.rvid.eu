@@ -5,9 +5,10 @@
 body {
   background-color: #222222;
   width: 100%;
+  margin: 0;
+  padding: 0;
   position: relative;
   color: rgb(240, 240, 240);
-  position: relative;
   font-family: Arial, sans-serif;
 }
 
@@ -51,7 +52,7 @@ button {
 
 .wallpaper img {
   width: 99%;
-  max-width: inherit - 1rem;
+  max-width: calc(100% - 1rem);
   border-radius: 0.5em;
 }
 
