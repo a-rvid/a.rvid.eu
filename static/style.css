@@ -11,6 +11,7 @@
 
 * {
   box-sizing: border-box;
+  transition: background-color 0.4s;
 }
 
 body {
@@ -21,7 +22,6 @@ body {
   position: relative;
   color: var(--text-color);
   font-family: var(--font-main);
-  transition: background-color 0.4s;
 }
 
 a {
