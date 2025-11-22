@@ -73,6 +73,11 @@ button {
   font-weight: bold;
 }
 
+.description {
+  font-style: italic;
+  color: lightgray;
+}
+
 /* Layout */
 main {
   max-width: 41em;
