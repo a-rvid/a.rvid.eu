@@ -1,29 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="description" content="Ways to contact me, including session messenger, mail, matrix (WIP) and more.">
-    <meta name="keywords" content="Contact, email, e mail, mail, matrix">
-    <meta name="author" content="Arvid">
-    <meta name="robots" content="index, follow">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta property="og:title" content="Contact | rvid.eu">
-    <meta property="og:description" content="Ways to contact me, including discord, mail, matrix (WIP) and more.">
-    <!--<meta property="og:image" content="https://www.example.com/og-image.jpg">-->
+
+<head>
+  <!--#include virtual="/templates/header.html" -->
+  <meta name="description" content="Ways to contact me, including session messenger, mail, matrix (WIP) and more.">
+  <meta name="keywords" content="Contact, email, e mail, mail, matrix">
+  <meta property="og:title" content="Contact | rvid.eu">
+  <meta property="og:description" content="Ways to contact me, including discord, mail, matrix (WIP) and more.">
+  <!--<meta property="og:image" content="https://www.example.com/og-image.jpg">-->
   <title>rvid | Contact</title>
   <link rel="canonical" href="https://a.rvid.eu/contact">
-    <link rel="stylesheet" href="/static/style.css">
-    <link rel="icon" type="image/svg+xml" href="/images/favicon.svg">
-  </head>
-  <body>
-<!--#include virtual="/templates/navbar.html" -->
-    <main>
-      <header>
-        <h1>Contact</h1>
-        <h2>Email</h2>
-        <p>Please contact me over mail!</p>
-        <a href="mailto:contact@rvid.eu">contact@rvid.eu</a>
-      </header>
-    </main>
-  </body>
+</head>
+
+<body>
+  <!--#include virtual="/templates/navbar.html" -->
+  <main>
+    <header>
+      <h1>Contact</h1>
+      <h2>Email</h2>
+      <p>Please contact me over mail!</p>
+      <a href="mailto:contact@rvid.eu">contact@rvid.eu</a>
+    </header>
+  </main>
+</body>
+
 </html>

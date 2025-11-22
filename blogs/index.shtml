@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!--#include virtual="/templates/header.html" -->
+  <meta name="description" content="My blogs and thoughts.">
+  <meta name="keywords" content="blog, thoughts, writing, linux, tech">
+  <meta property="og:title" content="Blogs | rvid.eu">
+  <meta property="og:description" content="My blogs and thoughts.">
+  <title>rvid | Blogs</title>
+  <link rel="canonical" href="https://a.rvid.eu/blogs/">
+</head>
+
+<body>
+  <!--#include virtual="/templates/navbar.html" -->
+  <main>
+    <header>
+      <h1>Blogs</h1>
+      <p>Site in progress</p>
+    </header>
+  </main>
+</body>
+
+</html>

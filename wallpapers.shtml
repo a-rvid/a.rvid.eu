@@ -1,44 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="description" content="Free wallpapers without licenses, photographed and/or edited by me. Download and use them for any purpose.">
-    <meta property="og:title" content="Free Wallpapers by rvidg">
-    <meta property="og:description" content="Free wallpapers without licenses, photographed and/or edited by me. Download and use them for any purpose.">
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://a.rvid.eu/wallpapers.html">
-    <meta property="og:image" content="https://a.rvid.eu/images/wallpaper-vault/GrassyCat/GrassyCat.avif">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Free Wallpapers by me">
-    <meta name="twitter:description" content="Free wallpapers without licenses, photographed and/or edited by me.">
-    <meta name="twitter:image" content="https://rvidg.github.io/assets/wallpapers/preview.jpg">
 
-    <title>rvid | Wallpapers!</title>
-    <link rel="canonical" href="https://a.rvid.eu/wallpapers">
-    <link rel="stylesheet" href="/static/style.css">
-    <link rel="icon" type="image/svg+xml" href="/images/favicon.svg">
-  </head>
-  <body>
-<!--#include virtual="/templates/navbar.html" -->
-    <main>
-      <header>
-        <h1>Wallpapers!</h1>
-        <p>A collection of general wallpapers created by me. Download instead of right clicking - save image to get lossless images! Expand:</p>
-        <details>
-          <summary>Grassy Cat</summary>
-          <div class="wallpaper">
-            <a href="/images/wallpaper-vault/GrassyCat/GrassyCat.png" target="_blank">
-              <img src="/images/wallpaper-vault/GrassyCat/GrassyCatLossy.avif" loading="lazy" alt="A really grassy cat">
-            </a><br>
-          </div>
-          <a href="/images/wallpaper-vault/GrassyCat/GrassyCat.avif" download>Download AVIF</a><br>
-          <a href="/images/wallpaper-vault/GrassyCat/GrassyCat.png" download>Download PNG</a><br>
-          <a href="/images/wallpaper-vault/GrassyCat/Original.png" alt="Original image before edited" target="_blank">Original image</a><br>
-        </details>
-        <details>
-          <summary>Licensed under WTFPL (expand)</summary>
-          <div class="code">
-            <pre><code>
+<head>
+  <!--#include virtual="/templates/header.html" -->
+  <meta name="description"
+    content="Free wallpapers without licenses, photographed and/or edited by me. Download and use them for any purpose.">
+  <meta property="og:title" content="Free Wallpapers by rvidg">
+  <meta property="og:description"
+    content="Free wallpapers without licenses, photographed and/or edited by me. Download and use them for any purpose.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://a.rvid.eu/wallpapers.html">
+  <meta property="og:image" content="https://a.rvid.eu/images/wallpaper-vault/GrassyCat/GrassyCat.avif">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Free Wallpapers by me">
+  <meta name="twitter:description" content="Free wallpapers without licenses, photographed and/or edited by me.">
+  <meta name="twitter:image" content="https://rvidg.github.io/assets/wallpapers/preview.jpg">
+
+  <title>rvid | Wallpapers!</title>
+  <link rel="canonical" href="https://a.rvid.eu/wallpapers">
+</head>
+
+<body>
+  <!--#include virtual="/templates/navbar.html" -->
+  <main>
+    <header>
+      <h1>Wallpapers!</h1>
+      <p>A collection of general wallpapers created by me. Download instead of right clicking - save image to get
+        lossless images! Expand:</p>
+      <details>
+        <summary>Grassy Cat</summary>
+        <div class="wallpaper">
+          <a href="/images/wallpaper-vault/GrassyCat/GrassyCat.png" target="_blank">
+            <img src="/images/wallpaper-vault/GrassyCat/GrassyCatLossy.avif" loading="lazy" alt="A really grassy cat">
+          </a><br>
+        </div>
+        <a href="/images/wallpaper-vault/GrassyCat/GrassyCat.avif" download>Download AVIF</a><br>
+        <a href="/images/wallpaper-vault/GrassyCat/GrassyCat.png" download>Download PNG</a><br>
+        <a href="/images/wallpaper-vault/GrassyCat/Original.png" alt="Original image before edited"
+          target="_blank">Original image</a><br>
+      </details>
+      <details>
+        <summary>Licensed under WTFPL (expand)</summary>
+        <div class="code">
+          <pre><code>
             DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE
                     Version 2, December 2004
 
@@ -53,12 +57,13 @@
 
   0. You just DO WHAT THE FUCK YOU WANT TO.
             </code></pre>
-          </div>
-        </details>
-      </header>
+        </div>
+      </details>
+    </header>
     <noscript>
       <p style="color: grey; text-align: center;">Goodbye js!</p>
     </noscript>
-    </main>
-  </body>
+  </main>
+</body>
+
 </html>
