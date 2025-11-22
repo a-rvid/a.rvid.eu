@@ -62,7 +62,7 @@ button {
 
 .wallpaper img {
   width: 100%;
-  max-width: 100%;
+  max-width: 40em;
   border-radius: var(--border-radius);
   display: block;
 }
@@ -79,7 +79,7 @@ main {
 
 figure {
   width: 100%;
-  max-width: 40em;
+  max-width: 10em;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -110,8 +110,15 @@ figure figcaption {
   margin: 0;
   padding: 0;
   display: flex;
-  justify-content: space-between;
   align-items: center;
+}
+
+.navbar ul li:first-child {
+  margin-right: auto;
+}
+
+.navbar ul li:last-child {
+  margin-left: auto;
 }
 
 .navbar li a,
