@@ -150,7 +150,7 @@ figure figcaption {
   border-bottom-left-radius: var(--border-radius);
   border-bottom-right-radius: var(--border-radius);
   width: 100%;
-  margin-top: -3.5em;
+  margin-top: -4.5em;
 }
 
 .navbar ul {
