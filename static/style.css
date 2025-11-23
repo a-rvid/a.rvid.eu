@@ -10,6 +10,7 @@
 
 * {
   box-sizing: border-box;
+  border-radius: 1px;
   transition: background-color 0.4s;
 }
 
@@ -28,7 +29,7 @@ a {
 }
 
 h1 {
-  border-bottom: 2mm ridge rgb(0 0 0);
+  border-bottom: 1mm solid rgba(0 0 0, 0.165);
 }
 
 button {
